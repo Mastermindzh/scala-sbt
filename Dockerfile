@@ -12,7 +12,7 @@ RUN \
 RUN \
   curl -L -o sbt.deb $SBT_URL && \
   dpkg -i sbt.deb && rm sbt.deb && \
-  apt-get update && sudo apt-get upgrade && sudo apt-get install sbt && \
+  apt-get update && apt-get install sbt && \
   sbt sbtVersion
 
 # Install make
