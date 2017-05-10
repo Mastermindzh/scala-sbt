@@ -2,7 +2,8 @@
 
 Simple container which will download and install "Scala" and it's build tool "sbt" on top of the base openjdk-8 image (which runs on debian)
 
-##Environmental variables
+## Environmental variables
+
 | Identifier | Purpose |
 |--------|--------|
 |SCALA_VERSION | The version of scala you want to run.|
