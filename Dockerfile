@@ -15,6 +15,10 @@ RUN \
   apt-get update && sudo apt-get upgrade && sudo apt-get install sbt && \
   sbt sbtVersion
 
+# Install make
+RUN \
+  apt-get install make
+
 # Define working directory
 WORKDIR /opt/project
 
