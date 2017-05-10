@@ -12,7 +12,7 @@ RUN \
 RUN \
   curl -L -o sbt.deb $SBT_URL && \
   dpkg -i sbt.deb && rm sbt.deb && \
-  apt-get update && apt-get upgrade && apt-get install sbt && \
+  apt-get update && apt-get install sbt && \
   sbt sbtVersion
 
 # Define working directory
